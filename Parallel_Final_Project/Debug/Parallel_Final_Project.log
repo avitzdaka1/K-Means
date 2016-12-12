@@ -1,0 +1,202 @@
+﻿Build started 11/23/2016 4:33:52.
+     1>Project "J:\Google Drive\Software Engineering Afeka\2016 Summer\Parallel Distributed Computing\Parallel_Final_Project\Parallel_Final_Project\Parallel_Final_Project.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Parallel_Final_Project.unsuccessfulbuild".
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\MPICH2\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" /I. /FIcuda_runtime.h /c "J:\Google Drive\Software Engineering Afeka\2016 Summer\Parallel Distributed Computing\Parallel_Final_Project\Parallel_Final_Project\kernel.cu" 
+       CudaBuild:
+         Compiling CUDA source file kernel.cu...
+         cmd.exe /C "C:\Users\PC323\AppData\Local\Temp\tmp02966104cf004046a3d3cd11e51efc9f.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\MPICH2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\kernel.cu.obj "J:\Google Drive\Software Engineering Afeka\2016 Summer\Parallel Distributed Computing\Parallel_Final_Project\Parallel_Final_Project\kernel.cu"
+         
+         J:\Google Drive\Software Engineering Afeka\2016 Summer\Parallel Distributed Computing\Parallel_Final_Project\Parallel_Final_Project>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\MPICH2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\kernel.cu.obj "J:\Google Drive\Software Engineering Afeka\2016 Summer\Parallel Distributed Computing\Parallel_Final_Project\Parallel_Final_Project\kernel.cu" 
+     1>c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(411): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(411): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(411): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1473): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1473): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1473): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1906): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1906): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1906): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(411): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(411): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(411): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1473): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1473): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1473): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1906): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1906): warning : expression has no effect
+         
+     1>c:\program files\mpich2\include\mpicxx.h(1906): warning : expression has no effect
+         
+         kernel.cu
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\MPICH2\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt functions.cpp main.cpp
+         main.cpp
+         functions.cpp
+     1>j:\google drive\software engineering afeka\2016 summer\parallel distributed computing\parallel_final_project\parallel_final_project\functions.cpp(8): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>j:\google drive\software engineering afeka\2016 summer\parallel distributed computing\parallel_final_project\parallel_final_project\functions.cpp(14): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>j:\google drive\software engineering afeka\2016 summer\parallel distributed computing\parallel_final_project\parallel_final_project\functions.cpp(25): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>j:\google drive\software engineering afeka\2016 summer\parallel distributed computing\parallel_final_project\parallel_final_project\functions.cpp(51): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>j:\google drive\software engineering afeka\2016 summer\parallel distributed computing\parallel_final_project\parallel_final_project\functions.cpp(93): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(277) : see declaration of 'gets'
+     1>j:\google drive\software engineering afeka\2016 summer\parallel distributed computing\parallel_final_project\parallel_final_project\functions.cpp(135): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>j:\google drive\software engineering afeka\2016 summer\parallel distributed computing\parallel_final_project\parallel_final_project\functions.cpp(135): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>j:\google drive\software engineering afeka\2016 summer\parallel distributed computing\parallel_final_project\parallel_final_project\functions.cpp(140): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(277) : see declaration of 'gets'
+     1>j:\google drive\software engineering afeka\2016 summer\parallel distributed computing\parallel_final_project\parallel_final_project\functions.cpp(147): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>j:\google drive\software engineering afeka\2016 summer\parallel distributed computing\parallel_final_project\parallel_final_project\functions.cpp(147): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         Generating Code...
+     1>j:\google drive\software engineering afeka\2016 summer\parallel distributed computing\parallel_final_project\parallel_final_project\functions.cpp(152): warning C4715: 'calcKMeans' : not all control paths return a value
+     1>j:\google drive\software engineering afeka\2016 summer\parallel distributed computing\parallel_final_project\parallel_final_project\main.cpp(14): warning C4700: uninitialized local variable 'status' used
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Parallel_Final_Project.exe.embed.manifest.res" Debug\Parallel_Final_Project_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"J:\Google Drive\Software Engineering Afeka\2016 Summer\Parallel Distributed Computing\Parallel_Final_Project\Debug\Parallel_Final_Project.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\MPICH2\lib" /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\lib\Win32" mpi.lib cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Parallel_Final_Project.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"J:\Google Drive\Software Engineering Afeka\2016 Summer\Parallel Distributed Computing\Parallel_Final_Project\Debug\Parallel_Final_Project.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"J:\Google Drive\Software Engineering Afeka\2016 Summer\Parallel Distributed Computing\Parallel_Final_Project\Debug\Parallel_Final_Project.lib" /MACHINE:X86 Debug\kernel.cu.obj
+         Debug\Parallel_Final_Project.exe.embed.manifest.res
+         Debug\functions.obj
+         Debug\main.obj
+     1>functions.obj : error LNK2019: unresolved external symbol _MPI_Bcast referenced in function "void __cdecl sendSettings(int,int,int,struct point *,double,double,int,int,int)" (?sendSettings@@YAXHHHPAUpoint@@NNHHH@Z)
+     1>functions.obj : error LNK2019: unresolved external symbol _MPI_Send referenced in function "void __cdecl sendFinalResults(int,struct cluster *,float,int,float,int)" (?sendFinalResults@@YAXHPAUcluster@@MHMH@Z)
+     1>functions.obj : error LNK2019: unresolved external symbol _MPI_Recv referenced in function "struct cluster * __cdecl recvFinalResults(int,struct cluster *,float,float,float *,float *,int,int,struct MPI_Status,int)" (?recvFinalResults@@YAPAUcluster@@HPAU1@MMPAM1HHUMPI_Status@@H@Z)
+     1>functions.obj : error LNK2019: unresolved external symbol _MPI_Type_commit referenced in function "int __cdecl createPointDatatype(void)" (?createPointDatatype@@YAHXZ)
+     1>functions.obj : error LNK2019: unresolved external symbol _MPI_Type_create_struct referenced in function "int __cdecl createPointDatatype(void)" (?createPointDatatype@@YAHXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _MPI_Get_processor_name referenced in function _main
+     1>main.obj : error LNK2019: unresolved external symbol _MPI_Comm_size referenced in function _main
+     1>main.obj : error LNK2019: unresolved external symbol _MPI_Comm_rank referenced in function _main
+     1>main.obj : error LNK2019: unresolved external symbol _MPI_Init referenced in function _main
+     1>J:\Google Drive\Software Engineering Afeka\2016 Summer\Parallel Distributed Computing\Parallel_Final_Project\Debug\Parallel_Final_Project.exe : fatal error LNK1120: 9 unresolved externals
+     1>Done Building Project "J:\Google Drive\Software Engineering Afeka\2016 Summer\Parallel Distributed Computing\Parallel_Final_Project\Parallel_Final_Project\Parallel_Final_Project.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:06.27
