@@ -39,5 +39,3 @@ The program in general:
 Thoughts about complexity:
 At first, I used both Cuda and OpenMP to calculate the pointRelocation function, but then I found out that it doesn't work well, so now I only use Cuda in this task.
 The same goes for the other functions, for example the points assignment function, it feels like using Cuda will only slow the program.
-
-Please send me an email to omermyaari@gmail.com for any questions.
